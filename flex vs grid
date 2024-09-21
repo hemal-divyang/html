@@ -1,1 +1,17 @@
+Flexbox is best for one-dimensional layouts where items are arranged in either rows or columns
+CSS Grid is optimal for two-dimensional layouts where you can manage both dimensions at once
+
+example
+flexbox : can be used for nav bar
+.navbar {
+  display: flex;
+  justify-content: space-around; /* Distributes space evenly */
+}
+
+grid : can be used for dashboard (charts and sidebar)
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-template-rows: auto; /* Automatic row height */
+}
 
