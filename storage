@@ -1,0 +1,4 @@
+localStorage: Stores data with no expiration time. The data is available even after the browser is closed and reopened.
+sessionStorage: Stores data for the duration of the page session. The data is cleared when the page or tab is closed.
+Cookies: Stores data that can have an expiration date, and they are sent with every HTTP request, which makes them useful
+         for server-side sessions but less efficient for large amounts of data.
