@@ -1,5 +1,6 @@
 When we say that `<strong>` is more accessible because it communicates importance to **assistive technologies** like screen readers, it means that the tag not only visually bolds the text, but also signals to devices designed to help people with disabilities (such as those who are visually impaired) that the text has a special significance. Here's how it works:
 
+
 ### **Screen Readers and Accessibility**:
 - **Screen readers** are tools that read aloud the content of web pages for users who cannot see the screen.
 - When a screen reader encounters a `<strong>` tag, it often adds emphasis or changes its tone (e.g., by reading the text with more intensity) to indicate that this part of the text is important.
